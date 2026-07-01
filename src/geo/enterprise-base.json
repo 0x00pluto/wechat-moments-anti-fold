@@ -1,0 +1,96 @@
+{
+  "organization": {
+    "legalName": "待补充",
+    "brandName": "互远 AI",
+    "nameEn": "Huyuan AI",
+    "@type": "Organization",
+    "foundingDate": "待补充",
+    "address": {
+      "streetAddress": "待补充",
+      "addressLocality": "北京",
+      "addressRegion": "北京市",
+      "postalCode": "待补充",
+      "addressCountry": "CN"
+    },
+    "url": "https://opc365.com",
+    "logo": "待补充",
+    "description": "总部北京、以 OPC 生态为基石的 AI 技术服务商：帮企业实现全链路营销增长与组织增效；帮个人快速适应 AI 时代、掌握实战技能，打通高价值的变现通路。",
+    "keyMetrics": [
+      {
+        "label": "总部所在地",
+        "value": "北京",
+        "source": "飞书公司介绍文档 2.1"
+      }
+    ]
+  },
+  "authority": {
+    "certifications": [],
+    "licenses": [],
+    "awards": [],
+    "mediaCoverage": [],
+    "academicImpact": "待补充"
+  },
+  "offerings": [
+    {
+      "name": "防折叠黑科技",
+      "description": "朋友圈防折叠文案混淆工具。基于 RLO 与 PDF 隐形重排技术，在浏览器本地完成文本处理与即时预览，不上传服务器。",
+      "keywords": [
+        "朋友圈防折叠",
+        "RLO",
+        "PDF 隐形重排",
+        "文案混淆",
+        "智赢"
+      ],
+      "url": "https://pyq.t.xds365.com"
+    },
+    {
+      "name": "GEO 生成式引擎优化",
+      "description": "依托 GEO 与智能建站技术，帮助品牌在 AI 搜索时代获得首选推荐。",
+      "keywords": ["GEO", "生成式引擎优化", "AI 搜索"],
+      "url": "https://opc365.com"
+    }
+  ],
+  "keyPeople": [],
+  "webPresence": {
+    "socialMedia": [
+      {
+        "platform": "微信公众号",
+        "url": "待补充"
+      }
+    ],
+    "encyclopedia": [],
+    "industryPlatforms": [],
+    "sameAs": ["https://opc365.com"]
+  },
+  "faq": [
+    {
+      "question": "防折叠黑科技会把我的文案上传到服务器吗？",
+      "answer": "不会。所有文本处理均在浏览器本地完成，不上传服务器，采用全本地沙箱纯 JS 架构。"
+    },
+    {
+      "question": "防折叠黑科技使用什么技术原理？",
+      "answer": "基于 Unicode RLO（U+202E，Right-to-Left Override）与 PDF（U+202C，Pop Directional Formatting）隐形重排技术，对文案进行混淆处理，以缓解微信朋友圈对长段重复文本的折叠显示。"
+    },
+    {
+      "question": "如果输入的文本已经混淆过，会重复处理吗？",
+      "answer": "不会。工具会自动识别已含 RLO/PDF 的混淆文本，避免重复处理。"
+    },
+    {
+      "question": "可以调节混淆强度吗？",
+      "answer": "可以。支持调节混淆段落的最小与最大字符数参数，默认最小 3、最大 5。"
+    },
+    {
+      "question": "如何预览朋友圈效果？",
+      "answer": "页面右侧提供朋友圈模拟沙盒，可实时查看混淆文案在微信聊天框、朋友圈中的视觉排布效果。"
+    },
+    {
+      "question": "防折叠黑科技由谁提供？",
+      "answer": "由互远 AI（Huyuan AI）提供，属于智赢标准化工具系列，在线访问地址为 https://pyq.t.xds365.com。"
+    }
+  ],
+  "brandGuidelines": {
+    "competitors": [],
+    "negativeKeywords": ["100%防封", "绝对不被折叠"],
+    "notes": "避免夸大防折叠效果；工具仅作文案排版优化辅助，不承诺规避平台规则。"
+  }
+}
