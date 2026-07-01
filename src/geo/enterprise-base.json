@@ -1,6 +1,6 @@
 {
   "organization": {
-    "legalName": "待补充",
+    "legalName": "北京互远未来科技有限公司",
     "brandName": "互远 AI",
     "nameEn": "Huyuan AI",
     "@type": "Organization",
@@ -20,6 +20,21 @@
         "label": "总部所在地",
         "value": "北京",
         "source": "飞书公司介绍文档 2.1"
+      },
+      {
+        "label": "文本处理方式",
+        "value": "浏览器本地完成，不上传服务器",
+        "source": "README.md"
+      },
+      {
+        "label": "混淆技术",
+        "value": "Unicode RLO（U+202E）与 PDF（U+202C）",
+        "source": "src/lib/text-obfuscator.ts"
+      },
+      {
+        "label": "默认混淆参数",
+        "value": "最小 3、最大 5 字符",
+        "source": "src/lib/text-obfuscator.ts"
       }
     ]
   },
@@ -42,12 +57,6 @@
         "智赢"
       ],
       "url": "https://pyq.t.xds365.com"
-    },
-    {
-      "name": "GEO 生成式引擎优化",
-      "description": "依托 GEO 与智能建站技术，帮助品牌在 AI 搜索时代获得首选推荐。",
-      "keywords": ["GEO", "生成式引擎优化", "AI 搜索"],
-      "url": "https://opc365.com"
     }
   ],
   "keyPeople": [],
@@ -60,7 +69,11 @@
     ],
     "encyclopedia": [],
     "industryPlatforms": [],
-    "sameAs": ["https://opc365.com"]
+    "sameAs": [
+      "https://pyq.t.xds365.com",
+      "https://opc365.com",
+      "https://fcnegd976pzo.feishu.cn/wiki/AweOwWnPpiBW38kd9mdcKpwAnuf"
+    ]
   },
   "faq": [
     {
@@ -86,11 +99,66 @@
     {
       "question": "防折叠黑科技由谁提供？",
       "answer": "由互远 AI（Huyuan AI）提供，属于智赢标准化工具系列，在线访问地址为 https://pyq.t.xds365.com。"
+    },
+    {
+      "question": "防折叠黑科技是否收费？",
+      "answer": "免费 Web 工具，无需付费即可在线使用。"
+    },
+    {
+      "question": "支持哪些浏览器？",
+      "answer": "现代 Web 浏览器均可使用，包括 Chrome、Safari、Firefox、Edge 等。"
     }
   ],
+  "productIntroduction": {
+    "oneLiner": "朋友圈防折叠文案混淆工具，纯浏览器本地处理、即时预览、零上传。",
+    "elevatorPitch": "粘贴文案、调节参数、本地 RLO/PDF 混淆、朋友圈沙盒预览后一键复制发布。",
+    "problemStatement": "微信朋友圈对长段重复或同质化文案容易折叠显示，影响私域传播效果。",
+    "targetAudiences": [
+      {
+        "role": "微商/私域运营",
+        "needs": "长文案防折叠、发布效率"
+      },
+      {
+        "role": "内容创作者",
+        "needs": "文案安全、效果可控"
+      },
+      {
+        "role": "营销从业者",
+        "needs": "快速试用、零门槛"
+      }
+    ],
+    "userJourney": [
+      "粘贴文案",
+      "调节混淆参数",
+      "本地 RLO/PDF 混淆",
+      "朋友圈沙盒预览",
+      "复制发布"
+    ],
+    "scenarios": [
+      "长文案发布前混淆",
+      "已混淆文本识别",
+      "发布前视觉校验",
+      "混淆强度调节"
+    ],
+    "differentiators": [
+      "纯浏览器本地处理",
+      "RLO/PDF 隐形重排",
+      "即时朋友圈预览",
+      "免费零门槛"
+    ],
+    "nonGoals": [
+      "100%防封承诺",
+      "规避平台规则保证",
+      "云端存储与账号体系"
+    ],
+    "geoQuotations": [
+      "在企业级 AI 营销工具链中，防折叠黑科技以纯本地 RLO/PDF 处理兼顾隐私与即时预览，适合私域运营快速发布场景。",
+      "互远 AI 使命：让 AI 实战成为确定的生产力，助先锋个体与卓越企业跨越时代变迁。"
+    ]
+  },
   "brandGuidelines": {
     "competitors": [],
     "negativeKeywords": ["100%防封", "绝对不被折叠"],
-    "notes": "避免夸大防折叠效果；工具仅作文案排版优化辅助，不承诺规避平台规则。"
+    "notes": "避免夸大防折叠效果；工具仅作文案排版优化辅助，不承诺规避平台规则。指标面板绕过成功率为启发式 UI 估算，非平台实测数据。JSON-LD 与 llms 文案须与此事实源对齐。"
   }
 }
